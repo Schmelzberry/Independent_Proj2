@@ -9,8 +9,10 @@ window.onload = function () {
   const form = document.querySelector("form");
   form.onsubmit = function(event) {
     event.preventDefault();
-  }
 
+  
+  }
+const age = parseInt(document.querySelector("input#animalpref").value);
 
 
 
