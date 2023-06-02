@@ -1,51 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" type = "text/css" href="css/styles.css">
-    <script src="js/scripts.js"></script>
-    <title>Programming Langauge Selector</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href="css/styles.css">
+<script src="js/scripts.js"></script>
+<title>Programming Langauge Selector</title>
 </head>
 
 <body>
-    <div>
-        <form> 
-            <label for ="catdog"> Do you prefer cats or dogs?</label>
-            <input id="catdog" type="checkbox">
-            <button type = "submit">Submit Here!</button>
-        </form>
+    <h1>Computer Programming Language Quiz</h1>
 
-       <div id="languages" class ="hidden">
-        <h1> Language Reveal</h1>
-        
-        <h2>Javascript</h2>
-        <ul>
-            <li>something</li>
-            <li>something</li>
-            <li>something</li>
-        </ul>
+    <p>Are you looking to get into programming? Are you not sure which language you should begin learning? Well you're in the right place, welcome! Below are a series of questions that will help lead you in the right direction on how to learn <strong>radical</strong> coding skills.</p>
+  
+<div>
+    <form id ="select-form"> 
+        <select id="animalpref">
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Iguana</option>
+            <option>Parrot</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
 
-    </div>
+    <form id = "select-form">
+        <select id = "drinkpref">
+            <option>Water</option>
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Goat Milk</option>
+        </select>
+        <button type ="submit">Enter</button>
+    </form>
 
-    <div id="pyth" class ="hidden">
-        <h1>Python</h1>
-        <ul>
-            <li>something</li>
-            <li>something</li>
-            <li>something</li>
-            <li>something</li>
-        </ul>
-    </div>
+    <form id="radio-form">
+        <label>
+            <input type="radio" name ="color" value="red" checked>Red
+        </label><br />
+        <label><input type="radio" name ="color" value ="purple">Purple
+        </label><br />
+        <label><input type="radio" name = "color" value ="Green">Green
+        </label><br />     
+    </form>
+
+    <form id="radio-form">
+        <label>
+            <input type="radio" name ="color" value="red" checked>Red
+        </label><br />
+        <label><input type="radio" name ="color" value ="purple">Purple
+        </label><br />
+        <label><input type="radio" name = "color" value ="Green">Green
+        </label><br />     
+    </form>
+
     
+    
+
     <div id="languages" class ="hidden">
-        <h1>Ruby</h1>
-            <ul>
-                <li>something</li>
-                <li>something</li>
-                <li>something</li>
-            </ul>  
-    </div>
+    <h2> Language Reveal</h2>
+    
+    <h2>Javascript</h2>
+    <ul>
+        <li>something</li>
+        <li>something</li>
+        <li>something</li>
+    </ul>
+
+</div>
+
+<div id="pyth" class ="hidden">
+    <h3>Python</h3>
+    <ul>
+        <li>something</li>
+        <li>something</li>
+        <li>something</li>
+        <li>something</li>
+    </ul>
+</div>
+
+<div id="languages" class ="hidden">
+    <h3>Ruby</h3>
+        <ul>
+            <li>something</li>
+            <li>something</li>
+            <li>something</li>
+        </ul>  
+</div>
 </body>
 </html>
