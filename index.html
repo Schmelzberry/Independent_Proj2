@@ -11,7 +11,7 @@
 <body>
     <h1>Computer Programming Language Quiz</h1>
      
-        <form id="quiz">
+        <form>
             <label for="animal">Favorite animal?</label>
             <input id="animal" type="text" name="animal">
             <label for="color">What's your favorite color?</label>
@@ -19,42 +19,26 @@
             <label for="letter"> Favorite letter in the alphabet?</label>
             <input id="letter" name = "letter" type="text"> 
             <label for="band"> Favorite band?</label>
-            <input id="band" name="band" type="letter">
+            <input id="band" name="band" type="text">
             <label for ="num"> Favorite number 0-9?</label>
-            <input id="num" name="num" type="string">
-            <button type="submit">Submit!</button>
+            <input id="num" name="num" type="text">
+            <button type="submit">Show me a programming language!</button>
         </form>
-   
-    
+
     <div id="java" class ="hidden">
-    <h2> Language Reveal</h2>
-    
-    <h2>Javascript</h2>
-    <ul>
-        <li>something JS</li>
-        <li>something JS</li>
-        <li>something JS</li>
-    </ul>
-</div>
+        <h2>Javascript!</h2>
+        <p>Well it looks like based on your response of: <span id="resultsJava">_________</span> you're suited for Java, friend! Time to study!</p>
+    </div>
 
+    <div id="pyth" class ="hidden">
+    <h2>Python!</h2>
+    <p>Well it looks like based on your response of: <span id="resultsPyth">_________</span> you're suited for Python, friend! Time to study!</p>
+    </div>
 
-<div id="pyth" class ="hidden">
-    <h3>Python</h3>
-    <ul>
-        <li>something about Python</li>
-        <li>something about Python</li>
-        <li>something about Python</li>
-        <li>something about Python</li>
-    </ul>
+    <div id="swift" class ="hidden">
+    <h2>Swift!</h2>
+    <p>Well it looks like based on your response of: <span id="resultSwift">_________</span> you're suited for Swift, friend! Time to study!</p>
+    </div>
 
-</div>
-<div id="ruby" class ="hidden">
-    <h3>Ruby</h3>
-        <ul>
-            <li>something something Ruby</li>
-            <li>something something Ruby</li>
-            <li>something something Ruby</li>
-        </ul>  
-</div>
 </body>
 </html>
