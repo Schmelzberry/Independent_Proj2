@@ -19,22 +19,19 @@ function getUserInput () {
     const userInputString = animalInput + ' ' + colorInput + ' ' + letterInput + ' ' + bandInput + ' ' + numInput;
 
     //determine string length, then direct user to 1 of 3 programming languages based on value of string length.
-    if (userInputString.length >= 0 && userInputString.length <= 15) {
-        console.log('between 0 and 15');
-        childH2.innerText = "Java is your langauge";
-        childp.innerText = "Java is your destiny";
+    if (userInputString.length >= 0 && userInputString.length <= 20) {
+        childH2.innerText = "Java is your language";
+        childp.innerText = "Java is your destiny(what year is it?), well anyways get after it friendo!";
         
     }
-    else if (userInputString.length > 15 && userInputString.length <= 25) {
-        console.log('between 15 and 25');
+    else if (userInputString.length > 20 && userInputString.length <= 30) {
         childH2.innerText = "Python is your language";
-        childp.innerText = "Python is your destiny";
+        childp.innerText = "Python is your destiny, get after it ya ssssssnake!";
      
     }
-    else if (userInputString.length > 25) {
-        console.log('greater than 25');
+    else if (userInputString.length > 30) {
         childH2.innerText = "Swift is your language";
-        childp.innerText = "Swift is your destiny";
+        childp.innerText = "Swift is your destiny,hope you dig Apple, friendo!";
     }
 }
 
